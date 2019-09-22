@@ -95,4 +95,11 @@ public class Keyword {
 		driver.quit();
 
 	}
+	
+	public static void acceptAlert() {
+		driver.switchTo().alert().accept();
+	}
+	public static void dismissAlert() {
+		driver.switchTo().alert().dismiss();
+	}
 }
